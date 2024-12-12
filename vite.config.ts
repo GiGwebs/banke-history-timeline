@@ -7,4 +7,13 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    target: ['es2020', 'chrome89', 'firefox89', 'safari15'],
+  },
+  esbuild: {
+    supported: {
+      'dynamic-import': true,
+      'import-meta': true,
+    },
+  },
 });

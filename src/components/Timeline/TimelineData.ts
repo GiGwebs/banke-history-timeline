@@ -29,6 +29,13 @@ export const timelineData: Milestone[] = [
     icon: 'Zap'
   },
   {
+    id: 'innovative-projects',
+    year: 2020,
+    title: 'Innovative E-Mobility Projects',
+    description: 'Collaborated on key projects developing modular electric power solutions',
+    icon: 'Zap'
+  },
+  {
     id: 'ec-pto',
     year: 2021,
     title: 'eC-PTO Launch',
